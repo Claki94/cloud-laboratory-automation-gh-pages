@@ -3,7 +3,8 @@
 1. Create a repository in Github and link it to our local repository.
 2. Create a public/private key pair for the project.
 3. Upload the private key to the project's Secrets.
-4. Create a Github workflow with the following steps:
+4. Upload the public key to the project's Deploy keys.
+5. Create a Github workflow with the following steps:
 
 - Use the desired operating system.
 - Checkout the repository.
